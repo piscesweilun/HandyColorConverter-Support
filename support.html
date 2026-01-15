@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="色彩助手 - 支援與常見問題">
+    <title>支援 - 色彩助手</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1rem 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav h1 {
+            font-size: 1.5rem;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.3s;
+        }
+
+        nav a:hover {
+            opacity: 0.8;
+        }
+
+        .lang-switcher {
+            padding: 0.5rem 1rem;
+            background: rgba(255,255,255,0.2);
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        /* Main Content */
+        main {
+            padding: 4rem 0;
+            min-height: 70vh;
+        }
+
+        h2 {
+            color: #667eea;
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        h3 {
+            color: #667eea;
+            font-size: 1.5rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        /* FAQ Section */
+        .faq-section {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            background: white;
+            margin-bottom: 1.5rem;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .faq-question {
+            font-weight: bold;
+            color: #667eea;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .faq-answer {
+            color: #666;
+            line-height: 1.8;
+        }
+
+        /* Contact Section */
+        .contact-section {
+            max-width: 800px;
+            margin: 3rem auto;
+            padding: 2rem;
+            background: #f8f9fa;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .contact-section a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact-section a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 4rem;
+        }
+
+        footer a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            h2 {
+                font-size: 2rem;
+            }
+
+            nav ul {
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <h1>🎨 色彩助手</h1>
+            <ul>
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="support.html">支援</a></li>
+                <li><a href="privacy.html">隱私權</a></li>
+                <li><a href="support-en.html" class="lang-switcher">English</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <h2>支援與常見問題</h2>
+
+            <!-- FAQ Section -->
+            <div class="faq-section">
+                <h3>📱 基本使用</h3>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q: 如何開始使用色彩助手？</div>
+                    <div class="faq-answer">
+                        A: 下載並安裝 App 後，您可以選擇使用相機即時取色，或從相簿選擇照片進行取色。點擊畫面上的任意位置即可提取該像素的顏色。
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q: 支援哪些色碼格式？</div>
+                    <div class="faq-answer">
+                        A: 色彩助手支援 RGB、HEX、HSL、HSB 和 CMYK 五種常見的色碼格式，可以隨時切換並一鍵複製。
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q: 什麼是顏色命名系統？</div>
+                    <div class="faq-answer">
+                        A: 顏色命名系統可以識別並顯示五種國際標準的顏色名稱，幫助您快速找到最接近的標準色，並可一鍵調整至精確的標準色值。
+                    </div>
+                </div>
+
+                <h3>💾 調色盤管理</h3>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q: 如何建立和管理調色盤？</div>
+                    <div class="faq-answer">
+                        A: 在主介面點擊「調色盤」按鈕，您可以建立新的調色盤、為顏色命名、組織分類。支援匯入和匯出功能，方便備份和分享。
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q: 調色盤可以匯出嗎？</div>
+                    <div class="faq-answer">
+                        A: 可以！調色盤支援以 JSON 格式匯出，您可以在不同裝置間同步，或與團隊成員分享配色方案。
+                    </div>
+                </div>
+
+                <h3>💎 Premium 功能</h3>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q: Premium 版本有什麼功能？</div>
+                    <div class="faq-answer">
+                        A: Premium 版本可以永久移除所有廣告，讓您獲得更清爽的使用體驗。購買一次，終身使用，並支援多裝置同步。
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q: 如何恢復購買？</div>
+                    <div class="faq-answer">
+                        A: 在 Premium 頁面中點擊「恢復購買」按鈕，系統會自動從 App Store 同步您的購買記錄。
+                    </div>
+                </div>
+
+                <h3>🔧 疑難排解</h3>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q: 相機無法使用怎麼辦？</div>
+                    <div class="faq-answer">
+                        A: 請到「設定」→「隱私權與安全性」→「相機」中，確認已授權色彩助手使用相機。
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q: 無法從相簿選擇照片？</div>
+                    <div class="faq-answer">
+                        A: 請到「設定」→「隱私權與安全性」→「照片」中，確認已授權色彩助手存取照片。
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q: App 當機或運作不正常？</div>
+                    <div class="faq-answer">
+                        A: 請嘗試以下步驟：<br>
+                        1. 重新啟動 App<br>
+                        2. 重新啟動裝置<br>
+                        3. 確認已安裝最新版本<br>
+                        4. 如問題持續，請聯絡我們的支援團隊
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Section -->
+            <div class="contact-section">
+                <h3>📧 還有其他問題？</h3>
+                <p>如果您的問題在上述列表中找不到答案，歡迎隨時聯絡我們！</p>
+                <p style="margin-top: 1rem;">
+                    電子郵件：<a href="mailto:piscesweilun.studio@gmail.com">piscesweilun.studio@gmail.com</a>
+                </p>
+                <p style="margin-top: 0.5rem; color: #666; font-size: 0.9rem;">
+                    我們會在 24-48 小時內回覆您的問題
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024-2026 色彩助手 HandyColorConverter. All rights reserved.</p>
+            <p>
+                <a href="index.html">首頁</a> | 
+                <a href="support.html">支援</a> | 
+                <a href="privacy.html">隱私權政策</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
